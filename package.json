@@ -7,10 +7,9 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "^0.1.18",
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.14",
-    "vite": "^2.5.1"
+    "vite": "^2.5.6"
   }
 }
