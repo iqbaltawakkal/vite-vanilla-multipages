@@ -8,8 +8,16 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
     "postcss": "^8.3.6",
+    "prettier": "^2.4.0",
+    "sass": "^1.39.2",
     "tailwindcss": "^2.2.14",
-    "vite": "^2.5.6"
-  }
+    "vite": "^2.5.6",
+    "vite-plugin-pug": "^0.3.0"
+  },
+  "dependencies": {}
 }
