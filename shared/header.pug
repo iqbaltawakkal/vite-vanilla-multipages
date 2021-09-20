@@ -1,0 +1,33 @@
+nav.font-semibold.shadow-sm.z-20
+  .hidden.items-center.justify-between.py-2.px-4(class='lg:flex text-[10px] lg:text-[11px] bg-[#0A8E94] lg:px-6 text-white')
+    div.time
+    .text-white.space-x-2(class='lg:space-x-4')
+      a.cursor-pointer  Policy 
+      span.border-r(class='border-[#7B7F9D]')
+      a.cursor-pointer  Contact us 
+  .bg-white.flex.items-center.justify-between.font-semibold.px-4.py-3.border-white.gap-8.text-xs(class='lg:px-6 lg:py-4 lg:border-b text-[#7B7F9D]')
+    .font-bold.flex-1.flex.items-center
+      button.inline-flex.items-center.justify-center.text-black.-ml-2.mr-4(type='button' class='lg:hidden' aria-controls='mobile-menu' aria-expanded='false')
+        svg(width='36' height='36' viewbox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg')
+          rect(opacity='0.245799' width='36' height='36' rx='18' fill='white')
+          rect(x='9' y='11' width='18' height='3' rx='1.5' fill='black')
+          rect(x='9' y='16' width='18' height='3' rx='1.5' fill='black')
+          rect(x='9' y='21' width='18' height='3' rx='1.5' fill='black')
+      .flex-shrink-0.flex.items-center
+        img(src="/xtr-logo.png", alt="", srcset="", class="w-[120px] sm:w-full")
+      .hidden(class='lg:block lg:ml-10')
+        .flex.space-x-6.uppercase
+          a(href='/'  class="text-[#73C70F]") Home
+          a(href='../getting-started/index.html' ) Getting Started
+    .flex.justify-evenly.items-center
+      button.flex.items-center.gap-2( class="mr-2")
+        svg(width='14' height='13' viewbox='0 0 14 13' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.35562 3.52786C8.48949 3.93989 8.87345 4.21885 9.30668 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L10.4167 7.63525C10.0662 7.8899 9.91959 8.34127 10.0535 8.75329L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L7.14729 10.8647C6.79681 10.6101 6.32221 10.6101 5.97172 10.8647L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.06555 8.75329C3.19943 8.34127 3.05277 7.8899 2.70228 7.63525L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H3.81234C4.24557 4.21885 4.62952 3.93989 4.7634 3.52786L5.60845 0.927052Z' fill='#FCB718')
+        span.leading-tight.break-words.text-left(class='text-[10px] lg:text-xs lg:leading-normal max-w-[60px] lg:max-w-none') RATE US
+      // Profile dropdown
+      .ml-1(class='lg:ml-6')
+        div
+          a.font-bold.text-black(class='lg:bg-[#0A8E94] lg:py-2 lg:px-6 lg:rounded-md lg:text-white')
+            svg.inline-block(width='16' class='lg:hidden' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z' fill='black')
+            span.hidden(class='lg:inline-block') LOGIN

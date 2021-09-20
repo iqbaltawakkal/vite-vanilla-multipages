@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <pug src="../shared/head.pug" />
+  <body>
+    <pug src="../shared/header.pug" />
+    <div class="bg-gray-100 py-12">
+      <div class="container mx-auto">
+        <div class="py-12 border-b border-gray-300">
+          <h1
+            class="
+              font-bold
+              text-4xl
+              md:text-5xl
+              text-gray-900
+              leading-tight
+              mb-6
+            "
+          >
+            Getting Started
+          </h1>
+          <p class="text-lg">
+            This is a guide page to Start new project using vite bundler.
+          </p>
+        </div>
+
+        <div class="py-12 border-b border-gray-300">
+          <h1 class="text-3xl font-bold mb-4">
+            Start project using SASS without Tailwind
+          </h1>
+          <ol class="list-decimal list-inside space-y-6">
+            <li>Remove all tailwind related dependency</li>
+            <div class="bg-gray-400 rounded-md text-gray-800 p-4">
+              <code
+                >npm uninstall tailwindcss autoprefixer postcss OR yarn remove
+                tailwindcss autoprefixer postcss</code
+              >
+            </div>
+            <li>
+              Remove all tailwind related files since we wont need them anymore.
+              <ul class="list-inside list-disc ml-4">
+                <li>tailwind.config.js</li>
+                <li>postcss.config.js</li>
+              </ul>
+            </li>
+            <li>
+              Remove
+              <code class="bg-gray-400 text-gray-900">@tailwind</code> base
+              style in
+              <code class="bg-gray-400 text-gray-900">styles.scss</code>
+            </li>
+            <div class="bg-gray-400 rounded-md text-gray-800 p-4">
+              <pre>
+@tailwind base; -
+@tailwind components; -
+@tailwind utilities; -</pre
+              >
+            </div>
+            <p class="text-xs">
+              P.S. Some page including this page will be broken when Tailwind
+              removed.
+            </p>
+          </ol>
+        </div>
+
+        <div class="py-12 border-b border-gray-300">
+          <h1 class="text-3xl font-bold mb-4">
+            Start project using Tailwind with SASS
+          </h1>
+          <ol>
+            <li>1. You are all set already, Good luck have fun!</li>
+          </ol>
+        </div>
+
+        <div class="py-12">
+          <h1 class="text-3xl font-bold mb-4">Script Command</h1>
+          <div class="bg-gray-400 rounded-md text-gray-800 p-4">
+            <pre> npm install OR yarn install <span class="text-green-600">// to install dependency</span></pre>
+            <pre> npm run dev OR yarn dev <span class="text-green-600">// to start dev environment with Hot Module Replacement</span></pre>
+            <pre> npm run build OR yarn build <span class="text-green-600">// to build project</span></pre>
+            <pre> npm run serve OR yarn serve <span class="text-green-600">// to serve builded project with Hot Module Replacement OFF</span></pre>
+          </div>
+          <p class="mt-4">
+            visit
+            <a class="underline text-blue-400" href="https://vitejs.dev/guide"
+              >vite's official site guide</a
+            >
+            to learn more about vite
+          </p>
+        </div>
+      </div>
+    </div>
+    <pug src="../shared/footer.pug" />
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
